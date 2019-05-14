@@ -1,6 +1,8 @@
 ![Shadowsocks](https://github.com/uesugitatsuya/shadowsocks_install/raw/master/shadowsocks.png)
 # Auto install Shadowsocks Server
-
+wget --no-check-certificate -O shadowsocks-go.sh https://raw.githubusercontent.com/uesugitatsuya/shadowsocks_install/master/shadowsocks-go.sh \
+&& chmod +x shadowsocks-go.sh \
+&& ./shadowsocks-go.sh 2>&1 | tee shadowsocks-go.log
 shadowsocks.sh
 ===============
 - Auto Install Shadowsocks(Python) Server for CentOS/Debian/Ubuntu
